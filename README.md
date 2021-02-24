@@ -1,16 +1,21 @@
-# flutter_navigation_examples
+# Flutter navigation examples
 
-A new Flutter project.
+Способы использования навигации:
+
+- через роуты
+- через именованные роуты
+- через использование Fluro
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Запуск примеров осуществляется по файлу `main.dart`, который располагается в директории `lib/example_<Number>`.
 
-A few resources to get you started if this is your first Flutter project:
+Также можно запустить через скрипты
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+flutter run lib/example_1/main.dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run lib/example_2/main.dart
+
+flutter run lib/example_3/main.dart
+```
